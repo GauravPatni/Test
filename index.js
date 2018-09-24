@@ -35,7 +35,7 @@ http.createServer(function(request, response) {
 	// 	console.log("Requested URL is: " + request.url);
 	// 	response.end();
 	// }
-}).listen(3000,()=>{
+}).listen(port,()=>{
     console.log("server started ....");
 
 });
